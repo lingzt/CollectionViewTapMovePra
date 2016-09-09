@@ -35,6 +35,8 @@ class PhotoCC: UICollectionViewController {
         return cell
     }
     
+    
+    //MARK: - the collectionView is moveable now
     override func collectionView(collectionView: UICollectionView, moveItemAtIndexPath sourceIndexPath: NSIndexPath, toIndexPath destinationIndexPath: NSIndexPath) {
         print(sourceIndexPath)
         
